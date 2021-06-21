@@ -1,0 +1,5 @@
+.professionalPageDiv {
+    height:100vh;
+    background: rgb(204,204,204);
+    background: linear-gradient(345deg, rgba(204,204,204,1) 0%, rgba(46,49,46,1) 100%);
+}
