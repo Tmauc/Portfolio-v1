@@ -1,5 +1,178 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - GENERAL SETTINGS SECTION  */
+/*   02 - HEADER SECTION  */
+/*   03 - ABOUT SECTION */
+/*   04 - SKILLS SECTION */
+/*   05 - EXPERIENCE SECTION */
+/*   0 - RESPONSIVE SECTION  */
+
+/******** GENERAL SETTINGS SECTION ********/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2pt;
+    color: rgb(218, 216, 216);
+}
+
+h3 {
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 9pt;
+    letter-spacing: 1pt;
+}
+
+p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(218, 216, 216);
+}
+
+h1 {
+    color: rgb(218, 216, 216);
+}
+
 .professionalPageDiv {
-    height:100vh;
-    background: rgb(204,204,204);
-    background: linear-gradient(345deg, rgba(204,204,204,1) 0%, rgba(46,49,46,1) 100%);
+    background: linear-gradient(345deg, rgb(41, 41, 41) 0%, rgb(13, 14, 13) 100%);
+    height: 100%;
+}
+
+.line {
+    margin: 20px auto;
+    width: 25px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.title {
+    margin: 0;
+    font-size: 12pt;
+    letter-spacing: 3pt;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media (min-width: 1000px) {
+    .main-wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 250px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 55;
+        clear: both;
+    }
+}
+
+/******** HEADER SECTION ********/
+.header {
+    background: url("../assets/header.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.header-wrapper {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    max-width: 450px;
+}
+
+.header-wrapper h1 {
+    font-size: 26pt;
+    font-weight: 700;
+    letter-spacing: 4pt;
+    line-height: 40pt;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-wrapper h2 {
+    font-size: 10pt;
+    font-weight: 300;
+    letter-spacing: 4pt;
+    color: #9e9e9e;
+    text-transform: uppercase;
+}
+
+/******** ABOUT SECTION ********/
+.about {
+    margin-top: 50px;
+    padding-top: 150px;
+}
+
+.about p {
+    font-size: 11pt;
+    letter-spacing: 1pt;
+    line-height: 19pt;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: rgb(199, 199, 199);
+}
+
+.about .text-wrapper {
+    padding: 100px 30px 30px 30px;
+}
+
+.img-wrap {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 30px;
+    justify-content: center;
+    height: 100%;
+}
+
+.about-me-img {
+    margin-top: 0px;
+    position: relative;
+    z-index: 1;
+    max-width: 70%;
+    border: 1px solid rgba(161, 161, 161, 0.3);
+    box-shadow: -12px 12px 30px 10px rgba(161, 161, 161, 0.05);
+    align-self: center;
+}
+
+/******** SKILLS SECTION ********/
+.skills {
+    padding-top: 170px;
+}
+
+/******** EXPERIENCE SECTION ********/
+.experiences {
+    padding-top: 170px;
+}
+
+/******** RESPONSIVE SECTION ********/
+@media (max-width: 1000px) {
+    .main-wrap {
+        width: 100%;
+        position: relative;
+        padding-left: 0;
+    }
 }

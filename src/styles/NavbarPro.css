@@ -1,0 +1,176 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - GENERAL SETTINGS SECTION  */
+/*   02 - NAVBAR SECTION  */
+/*   03 - NAVBAR-BRAND SECTION  */
+/*   04 - NAVBAR-NAV SECTION */
+/*   05 - NAVBAR-BOTTOM SECTION */
+/*   06 - RESPONSIVE SECTION */
+
+
+/******** GENERAL SETTINGS SECTION ********/
+.white {
+    color: white;
+}
+
+a:hover {
+    color: #1b1b1b;
+ }
+
+/******** NAVBAR SECTION ********/
+@media (min-width: 1000px) {
+    .navbar {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        min-height: 100%;
+        border-right: 2px solid #fafbfc;
+        background: rgb(13, 14, 13);
+        background: linear-gradient(345deg, rgb(54, 54, 54) 0%, rgb(13, 14, 13) 100%);
+        float: left;
+        overflow: hidden;
+        z-index: 1000;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+            sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+/******** NAVBAR-BRAND SECTION ********/
+@media (min-width: 1000px) {
+    .navbar .navbar-brand {
+        font-size: 14pt;
+        letter-spacing: 8pt;
+        margin-top: 80px;
+        padding: 0 0 0 40px;
+        color: #ffffff;
+    }
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.resume .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+a {
+    background: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1pt;
+    cursor: pointer;
+}
+
+/******** NAVBAR-NAV SECTION ********/
+@media (min-width: 1000px) {
+    .navbar .navbar-nav {
+        display: block;
+        overflow: hidden;
+        margin-top: 100px;
+        list-style: none;
+        padding: 0 0 0 40px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover,
+    .navbar .navbar-nav .nav-item a.active {
+        color: #a8570b;
+    }
+
+    .navbar .navbar-nav .nav-item a {
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-size: 9pt;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+    }
+}
+
+/******** NAVBAR-BOTTOM SECTION ********/
+@media (min-width: 1000px) {
+    .navbar .bottom {
+        position: absolute;
+        left: 0;
+        padding: 0 0 0 20px;
+        bottom: 70px;
+    }
+}
+
+.navbar .bottom-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .bottom-info p {
+    color: #969595;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+/******** RESPONSIVE SECTION ********/
+@media (max-width: 1000px) {
+    .navbar {
+        /*border-bottom: 2px solid #000000;*/
+        background: rgb(13, 14, 13);
+        background: linear-gradient(345deg, rgb(54, 54, 54) 0%, rgb(13, 14, 13) 100%);
+        z-index: 1000;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 14pt;
+        letter-spacing: 1pt;
+        margin: 20px 20px;
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav {
+        display: block;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        list-style: none;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover,
+    .navbar .navbar-nav .nav-item a.active {
+        color: #8d2c2c;
+    }
+
+    .navbar .navbar-nav .nav-item a {
+        color: #1b1b1b;
+        font-family: "Roboto", sans-serif;
+        font-size: 9pt;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+        text-align: center;
+    }
+
+    .navbar .bottom {
+        display: none;
+    }
+}
