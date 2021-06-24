@@ -1,0 +1,176 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - GENERAL SETTINGS SECTION  */
+/*   02 - NAVBAR SECTION  */
+/*   03 - NAVBAR-BRAND SECTION  */
+/*   04 - NAVBAR-NAV SECTION */
+/*   05 - NAVBAR-BOTTOM SECTION */
+/*   06 - RESPONSIVE SECTION */
+
+
+/******** GENERAL SETTINGS SECTION ********/
+.white {
+    color: white;
+}
+
+a:hover {
+    color: #1b1b1b;
+}
+
+ 
+
+/******** NAVBAR SECTION ********/
+@media (min-width: 1000px) {
+    .navbar-perso {
+        display: block;
+        position: fixed;
+        right: 0;
+        width: 250px;
+        min-height: 100%;
+        border-right: 2px solid #fafbfc;
+        background: linear-gradient(345deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+        float: right;
+        overflow: hidden;
+        z-index: 1000;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+            sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+/******** NAVBAR-BRAND SECTION ********/
+@media (min-width: 1000px) {
+    .navbar-perso  .navbar-brand-perso  {
+        font-size: 14pt;
+        letter-spacing: 8pt;
+        margin-top: 80px;
+        padding: 0 0 0 40px;
+        color: black;
+    }
+}
+
+.navbar-brand-perso  {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.resume .nav-pills .nav-link-perso .active,
+.nav-pills .show > .nav-link-perso ,
+a {
+    background: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1pt;
+    cursor: pointer;
+}
+
+/******** NAVBAR-NAV SECTION ********/
+@media (min-width: 1000px) {
+    .navbar-perso  .navbar-nav-perso  {
+        display: block;
+        overflow: hidden;
+        margin-top: 100px;
+        list-style: none;
+        padding: 0 0 0 40px;
+    }
+
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  a:hover,
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  a.active {
+        color: #a8570b;
+    }
+
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  a {
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-size: 9pt;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+    }
+}
+
+/******** NAVBAR-BOTTOM SECTION ********/
+@media (min-width: 1000px) {
+    .navbar-perso  .bottom-perso  {
+        position: absolute;
+        left: 0;
+        padding: 0 0 0 20px;
+        bottom: 70px;
+    }
+}
+
+.navbar-perso  .bottom-info-perso  a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-perso  .bottom-info-perso  p {
+    color: #4e4e4e;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+/******** RESPONSIVE SECTION ********/
+@media (max-width: 1000px) {
+    .navbar-perso  {
+        /*border-bottom: 2px solid #000000;*/
+        background: linear-gradient(345deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+        z-index: 1000;
+    }
+
+    .navbar-perso  .navbar-brand-perso  {
+        font-size: 14pt;
+        letter-spacing: 1pt;
+        margin: 20px 20px;
+        color: black;
+    }
+
+    .navbar-perso  .navbar-nav-perso  {
+        display: block;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        list-style: none;
+    }
+
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  a:hover,
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  a.active {
+        color: #8d2c2c;
+    }
+
+    .navbar-perso  .navbar-nav-perso  .nav-item-perso  a {
+        color: #1b1b1b;
+        font-family: "Roboto", sans-serif;
+        font-size: 9pt;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+        text-align: center;
+    }
+
+    .navbar-perso  .bottom-perso  {
+        display: none;
+    }
+}

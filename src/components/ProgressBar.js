@@ -21,13 +21,13 @@ const ProgressBar = (props) => {
 
     const h5Styles = {
         color: "#dad8d8",
-        fontSize: "9pt",
+        fontSize: "10pt",
         letterSpacing: "1pt"
     }
 
     const pStyles = {
         color: "#ffffff",
-        fontSize: "6pt",
+        fontSize: "8pt",
         letterSpacing: "1pt"
     }
 
@@ -41,13 +41,9 @@ const ProgressBar = (props) => {
         justifyItem: 'center'
     }
 
-    const textDivStyles = {
-
-    }
-
     return (
         <div style={mainDivStyles}>
-            <div style={textDivStyles}>
+            <div>
                 <h5 style={h5Styles}>{skill} - {completed}%</h5>
                 <p style={pStyles}> ({desc}) </p>
             </div>

@@ -1,3 +1,17 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - GENERAL SETTINGS SECTION  */
+/*   02 - HEADER SECTION  */
+/*   03 - ABOUT SECTION */
+/*   04 - SKILLS SECTION */
+/*   05 - RESUME SECTION */
+/*   06 - PROJECTS SECTION */
+
+/*   0 - SOCIAL SECTION  */
+/*   0 - RESPONSIVE SECTION  */
+
+/* APP */
 .App {
   text-align: center;
 }
@@ -35,4 +49,395 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/******** GENERAL SETTINGS SECTION ********/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2pt;
+    color: rgb(218, 216, 216);
+}
+
+h3 {
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 9pt;
+    letter-spacing: 1pt;
+}
+
+p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(218, 216, 216);
+}
+
+h1 {
+    color: rgb(218, 216, 216);
+}
+
+.professionalPageDiv {
+    background: linear-gradient(345deg, rgb(41, 41, 41) 0%, rgb(13, 14, 13) 100%);
+    height: 100%;
+}
+
+.personalPageDiv {
+  height:100%;
+  background: linear-gradient(345deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.line {
+    margin: 20px auto;
+    width: 25px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.title {
+    margin: 0;
+    font-size: 12pt;
+    letter-spacing: 3pt;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.titlev2 {
+    margin: 0;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    color: #ffffff;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+.titleDiv {
+    margin-left: 7%;
+    margin-bottom: -30px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.colorBlack {
+  color: black;
+}
+
+.backColorBlack {
+  background-color: black;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.backColorWhite {
+  background-color: White;
+}
+
+@media (min-width: 1000px) {
+    .main-wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 250px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 55;
+        clear: both;
+    }
+    .main-wrapper-perso {
+      width: 100%;
+      height: 100%;
+      padding-right: 250px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 55;
+      clear: both;
+  }
+}
+
+/******** HEADER SECTION ********/
+.header {
+    background: url("../assets/header.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.header-wrapper {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    max-width: 450px;
+}
+
+.header-perso {
+  background: url("../assets/header2.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+.header-wrapper-perso {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  max-width: 450px;
+}
+
+.header-wrapper h1 {
+    font-size: 26pt;
+    font-weight: 700;
+    letter-spacing: 4pt;
+    line-height: 40pt;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-wrapper h2 {
+    font-size: 10pt;
+    font-weight: 300;
+    letter-spacing: 4pt;
+    color: #9e9e9e;
+    text-transform: uppercase;
+}
+
+/******** ABOUT SECTION ********/
+.about {
+    margin-top: 50px;
+    padding-top: 130px;
+}
+
+.about-text {
+    font-size: 11pt;
+    letter-spacing: 1pt;
+    line-height: 19pt;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: rgb(199, 199, 199);
+}
+
+.about-text-black {
+  font-size: 11pt;
+  letter-spacing: 1pt;
+  line-height: 19pt;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: black;
+}
+
+.about .text-wrapper {
+    padding: 100px 30px 30px 30px;
+}
+
+.img-wrap {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 30px;
+    justify-content: center;
+    height: 100%;
+}
+
+.about-me-img {
+    margin-top: 0px;
+    position: relative;
+    z-index: 1;
+    max-width: 70%;
+    border: 1px solid rgba(161, 161, 161, 0.3);
+    box-shadow: -12px 12px 30px 10px rgba(161, 161, 161, 0.05);
+    align-self: center;
+}
+
+/******** SKILLS SECTION ********/
+.skills {
+    padding-top: 160px;
+}
+
+/******** RESUME SECTION ********/
+.resume {
+    padding-top: 90px;
+}
+
+/******** TWITCH SECTION ********/
+.twitch {
+    padding-top: 170px;
+}
+
+/******** YOUTUBE SECTION ********/
+.youtube {
+  padding-top: 170px;
+}
+
+/******** PHOTOGRAPHY SECTION ********/
+.photography {
+  padding-top: 170px;
+}
+
+/******** PROJECTS SECTION ********/
+.projects {
+  padding-top: 170px;
+}
+
+/******** CONTACT SECTION ********/
+.contact {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+/******** SOCIAL SECTION ********/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.socialR {
+  padding-right: 250px;
+}
+
+.socialL {
+  padding-left: 250px;
+}
+
+.wrapper {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background-color: #0e76a8;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+.wrapper .twitch:hover,
+.wrapper .twitch:hover .tooltip,
+.wrapper .twitch:hover .tooltip::before {
+  background-color: #6441a5;
+  color: #ffffff;
+}
+
+/******** RESPONSIVE SECTION ********/
+@media (max-width: 1000px) {
+    .main-wrap {
+        width: 100%;
+        position: relative;
+        padding-left: 0;
+    }
 }
