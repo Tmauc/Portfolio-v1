@@ -19,16 +19,16 @@ const skill2 = [
 ];
 
 const education = [
-    { date: "2020 - NOW", title: "Master 2", where: "EPITECH Lyon", desc: "École en 5 ans, Expert en Technologies de l’Information." },
-    { date: "2017 - 2020", title: "Bachelor", where: "EPITECH Lyon", desc: "École en 5 ans, Expert en Technologies de l’Information." },
-    { date: "2014 - 2017", title: "Baccalauréat Scientifique", where: "Lycée Saint-Joseph Thônes", desc: "Mention Assez-Bien." },
+    { date: "2020 - NOW", title: "Master 2", where: "EPITECH Lyon", desc: "The Grande Ecole program is Epitech's historical curriculum. It lasts 5 years and trains experts in computer science. It offers a dense and varied technical content, including a diversity of programming projects, and covering many languages that will allow the student to approach all new technologies with serenity." },
+    { date: "2017 - 2020", title: "Bachelor", where: "EPITECH Lyon", desc: "The Grande Ecole program is Epitech's historical curriculum. It lasts 5 years and trains experts in computer science. It offers a dense and varied technical content, including a diversity of programming projects, and covering many languages that will allow the student to approach all new technologies with serenity." },
+    { date: "2014 - 2017", title: "Baccalauréat Scientifique", where: "Saint-Joseph High School Thônes", desc: "Pretty good awarded" },
 ];
 
 const workExperience = [
     { date: "JUN 2021 - NOW", title: "Front developer", where: "Maskott", desc: "Recreate a webapp in react." },
-    { date: "NOV 2020 - DEC 2020", title: "Freelance", where: "Inattendu", desc: "Boite d'évènementiel en présentiel et en virtuel./n.Gestion du site (Vue.js)./n.ZOOM master./n.Régie (son, vidéo, lumière)" },
-    { date: "OCT 2019 - JAN 2021", title: "Front developer (Trainee)", where: "Ibani - Mt Pelerin", desc: "Ibani: Société gérant du change de monaie./nMt Pelerin: Société (futur banque) qui vise à la création de compte digital sûr, gratuit, rapide./n/nAmélioration du site admin/nMise à jour de l'application mobile" },
-    { date: "JUL 2018 - DEC 2018", title: "Back Office developer", where: "New access", desc: "Multinational éditeur international de logiciels bancaires pour des banques privées./n/nCréation d'une application web permettant de visionner un projet sous forme de node et de lien (Force Layout)/nGestionnaire automatisé de logs (plusieurs milliers de logs, parsés, puis compilés en un seul log selon les paramètres de l´utilisateur)" },
+    { date: "NOV 2020 - DEC 2020", title: "Freelance", where: "Inattendu", desc: "Event enterprise in presence and virtual.\n\n.\tSite management (Vue.js).\n.\tZOOM master.\n.\tSound, video and light management." },
+    { date: "OCT 2019 - JAN 2021", title: "Front developer (Trainee)", where: "Ibani - MtPelerin", desc: "Ibani: Company managing the exchange of money.\nMtPelerin: Company (future bank) which aims at the creation of digital account safe, free, fast.\n\n.\tImprovement of the admin site.\n.\tUpdate of the mobile application.\n\nTools: Vue.js / React Native, Javascript / MacOS" },
+    { date: "JUL 2018 - DEC 2018", title: "Back Office developer", where: "New access", desc: "Multinational editor of banking software for private banks.\n\n.\tCreation of a web application allowing to view a project as a node and a link (Force Layout).\n.\tAutomated log manager (several thousands of logs, parsed, then compiled into a single log according to the user's parameters).\n\nTools : C, JavaScript (angular, d3.js), Html / Css, VisualStudio" },
 ];
 
 function Professional() {

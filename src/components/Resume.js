@@ -17,7 +17,8 @@ const ResumeSection = (props) => {
         letterSpacing: "1pt",
         margin: 0,
         marginTop: 8,
-        display: 'none'
+        display: 'none',
+        whiteSpace: "pre-line"
     }
 
     const spanStyles = {

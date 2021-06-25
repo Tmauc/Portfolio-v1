@@ -31,10 +31,10 @@ function Home() {
                 <div className="PDiv persoDiv">
                     <div className="container">
                         <div className="row rotate5">
-                        <div className="col-lg-6 col-xs-12 colBtnHome2 paddingR300">
+                        <div className="col-lg-6 col-xs-12 colBtnHome2 paddingR250">
                                 <div className="text-wrapper-home">
                                     <hr className="line-perso backColorBlack"></hr>
-                                    <Button className="btnHome" variant="dark" href="/personal">PERSO</Button>
+                                    <Button className="btnHome" variant="dark" href="/personal?">PERSO</Button>
                                     <hr className="line-perso backColorBlack"></hr>
                                 </div>
                             </div>
@@ -45,10 +45,10 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-xs-12 colBtnHome paddingR300">
+                            <div className="col-lg-6 col-xs-12 colBtnHome paddingR250">
                                 <div className="text-wrapper-home">
                                     <hr className="line-perso backColorBlack"></hr>
-                                    <Button className="btnHome" variant="dark" href="/personal">PERSO</Button>
+                                    <Button className="btnHome" variant="dark" href="/personal?">PERSO</Button>
                                     <hr className="line-perso backColorBlack"></hr>
                                 </div>
                             </div>

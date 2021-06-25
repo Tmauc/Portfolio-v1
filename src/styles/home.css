@@ -4,8 +4,8 @@
     padding-right: 130px;
 }
 
-.paddingR300 {
-    padding-right: 300px;
+.paddingR250 {
+    padding-right: 250px;
 }
 
 .paddingL20 {
@@ -71,7 +71,6 @@
     }
 
     .PDiv:hover {
-        width: 80%;
         z-index: 1000;
     }
 
