@@ -6,7 +6,9 @@ import "../styles/NavbarPro.css"
 function NavbarProComponent() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg">
-      <a className="navbar-brand" href="/home">PRO</a>
+      <a className="navbar-brand" href="/home">PRO
+        <div className="tooltip">Back home</div>
+      </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"><i className="fa fa-navicon white"></i></span>
       </button>

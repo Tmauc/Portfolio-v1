@@ -65,6 +65,15 @@ a:hover {
     text-decoration: none;
 }
 
+
+.navbar-perso .navbar-brand-perso:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    color: black;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
 .resume .nav-pills .nav-link-perso .active,
 .nav-pills .show > .nav-link-perso ,
 a {
