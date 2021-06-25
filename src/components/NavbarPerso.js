@@ -25,19 +25,19 @@ function NavbarPersoComponent() {
             </a>
           </li>
           <li className="nav-item-perso">
-            <a className="nav-link-perso" href="#twitch">
+            <a className="nav-link-perso isDisabled" href="#twitch">
               TWITCH
               <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item-perso">
-            <a className="nav-link-perso" href="#youtube">
+            <a className="nav-link-perso isDisabled" href="#youtube" disabled>
               YOUTUBE
               <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item-perso">
-            <a className="nav-link-perso" href="#photography">
+            <a className="nav-link-perso isDisabled" href="#photography">
               PHOTOGRAPHY
               <span className="sr-only">(current)</span>
             </a>

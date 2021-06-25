@@ -151,6 +151,13 @@ h1 {
   background-color: White;
 }
 
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
 @media (min-width: 1000px) {
     .main-wrapper {
         width: 100%;
@@ -289,21 +296,25 @@ h1 {
 /******** TWITCH SECTION ********/
 .twitch {
     padding-top: 170px;
+    display: none;
 }
 
 /******** YOUTUBE SECTION ********/
 .youtube {
   padding-top: 170px;
+  display: none;
 }
 
 /******** PHOTOGRAPHY SECTION ********/
 .photography {
   padding-top: 170px;
+  display: none;
 }
 
 /******** PROJECTS SECTION ********/
 .projects {
   padding-top: 170px;
+  display: none;
 }
 
 /******** CONTACT SECTION ********/

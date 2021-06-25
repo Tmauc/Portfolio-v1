@@ -37,7 +37,7 @@ function NavbarProComponent() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#projects">
+            <a className="nav-link isDisabled" href="#projects">
               PROJECTS
               <span className="sr-only">(current)</span>
             </a>
