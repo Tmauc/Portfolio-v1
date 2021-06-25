@@ -3,6 +3,7 @@ import 'normalize.css';
 import 'font-awesome/css/font-awesome.css';
 import Navbar from "../components/NavbarPro"
 import ProgressBar from "../components/ProgressBar"
+import ContactForm from "../components/ContactForm"
 import Resume from "../components/Resume"
 import Pic from "../assets/about.png"
 
@@ -76,7 +77,7 @@ function Professional() {
                 <div className="skills" id="skills">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12">
                                 <h2 className="title">SKILLS</h2>
                                 <hr className="line"></hr>
                             </div>
@@ -96,7 +97,7 @@ function Professional() {
                 <div className="resume" id="resume">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-12 col-md-12 col-xs-12 text-center">
+                            <div className="col-lg-12 col-md-12 col-xs-12">
                                 <h2 className="title">RESUME</h2>
                                 <hr className="line"></hr>
                                 <div className="titleDiv">
@@ -120,7 +121,7 @@ function Professional() {
                 <div className="projects" id="projects">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12">
                                 <h2 className="title">PROJECTS</h2>
                                 <hr className="line"></hr>
                             </div>
@@ -130,9 +131,10 @@ function Professional() {
                 <div className="contact" id="contact">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12 item-center">
                                 <h2 className="title">CONTACT</h2>
                                 <hr className="line"></hr>
+                                <ContactForm theme='light'></ContactForm>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../components/NavbarPerso"
+import ContactForm from "../components/ContactForm"
 import Pic from "../assets/aboutPerso1.png"
 
 function Personal() {
@@ -48,7 +49,7 @@ function Personal() {
                 <div className="twitch" id="twitch">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12">
                                 <h2 className="title colorBlack">TWITCH</h2>
                                 <hr className="line backColorBlack"></hr>
                             </div>
@@ -58,7 +59,7 @@ function Personal() {
                 <div className="youtube" id="youtube">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12">
                                 <h2 className="title colorBlack">YOUTUBE</h2>
                                 <hr className="line backColorBlack"></hr>
                             </div>
@@ -68,7 +69,7 @@ function Personal() {
                 <div className="photography" id="photography">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12">
                                 <h2 className="title colorBlack">PHOTOGRAPHY</h2>
                                 <hr className="line backColorBlack"></hr>
                             </div>
@@ -78,9 +79,10 @@ function Personal() {
                 <div className="contact" id="contact">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-xs-12 text-center">
+                            <div className="col-md-12 col-xs-12">
                                 <h2 className="title colorBlack">CONTACT</h2>
                                 <hr className="line backColorBlack"></hr>
+                                <ContactForm theme='dark'></ContactForm>
                             </div>
                         </div>
                     </div>
