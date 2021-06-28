@@ -60,15 +60,17 @@ const ResumeSection = (props) => {
         justifyContent: 'center'
     }
 
-    function click(id) {
-        var para = document.getElementById(id);
+    function click(pid, bid) {
+        var para = document.getElementById(pid);
+        var btn = document.getElementById(bid);
         para.style.display === 'inline-block' ? para.style.display = 'none' : para.style.display = 'inline-block';
+        btn.innerHTML === '+' ? btn.innerHTML = '-' : btn.innerHTML = '+';
     }
 
     return (
         <div style={mainDivStyles}>
             <span style={spanStyles}>{date}</span>
-            <Button style={btnStyles} variant="dark" onClick={() => click(id + "pID")}>+</Button>
+            <Button id={id + "bID"} style={btnStyles} variant="dark" onClick={() => click(id + "pID", id + "bID")}>+</Button>
             <div style={boxStyles}>
                 <h5 style={h5Styles}>{title} - {where}</h5>
                 <p id={id + "pID"} style={pStyles}>{desc}</p>

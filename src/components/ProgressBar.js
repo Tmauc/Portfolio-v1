@@ -2,7 +2,6 @@ import React from "react";
 
 const ProgressBar = (props) => {
     const { skill, desc, bgcolor, completed } = props;
-
     const containerStyles = {
         height: 10,
         width: '90%',

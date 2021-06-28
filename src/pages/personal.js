@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "../components/NavbarPerso"
 import ContactForm from "../components/ContactForm"
+import TwitchSection from "../components/twitchSection"
 import Pic from "../assets/aboutPerso1.png"
 
 function Personal() {
@@ -50,8 +51,7 @@ function Personal() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-xs-12">
-                                <h2 className="title colorBlack">TWITCH</h2>
-                                <hr className="line backColorBlack"></hr>
+                                <TwitchSection></TwitchSection>
                             </div>
                         </div>
                     </div>

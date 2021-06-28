@@ -24,3 +24,4 @@ yarn-error.log*
 
 # test
 src/styles/test.css
+src/config.json

@@ -27,7 +27,7 @@ function NavbarPersoComponent() {
             </a>
           </li>
           <li className="nav-item-perso">
-            <a className="nav-link-perso isDisabled" href="#twitch">
+            <a className="nav-link-perso" href="#twitch">
               TWITCH
               <span className="sr-only">(current)</span>
             </a>
