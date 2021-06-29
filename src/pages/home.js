@@ -18,7 +18,7 @@ function Home() {
                                     <hr className="line-perso backColorWhite"></hr>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-xs-12">
+                            <div className="col-lg-6 col-md-12 col-xs-12 imgDiv">
                                 <div className="img-wrap-home paddingR50">
                                     <div className="colImgHome">
                                         <img src={pro} className="imgHome" alt="about images" />
@@ -38,7 +38,7 @@ function Home() {
                                     <hr className="line-perso backColorBlack"></hr>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-xs-12">
+                            <div className="col-lg-6 col-md-12 col-xs-12 imgDiv">
                                 <div className="img-wrap-home paddingL20">
                                     <div className="colImgHome">
                                         <img src={perso} className="imgHome" alt="about images" />

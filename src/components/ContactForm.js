@@ -6,10 +6,13 @@ const formStyle = {
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    justifyContent: 'center',
+    justifyItems: 'center',
+    alignItems: 'center',
 }
 
 const inputStyle = {
-    width: '50%',
+    width: '100%',
     backgroundColor: 'rgb(41, 41, 41)',
     border: "1px solid white",
     color: 'white',
@@ -17,7 +20,7 @@ const inputStyle = {
 }
 
 const inputStyleDark = {
-    width: '50%',
+    width: '100%',
     backgroundColor: 'linear-gradient(345deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%)',
     border: "1px solid black",
     color: 'black',
@@ -52,15 +55,14 @@ const pStylesDark = {
 
 const btnStyle = {
     marginTop: '30px',
-    marginLeft: '45%',
-    marginRight: '45%',
+    width: '25%',
 }
 
 const emailDiv = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
-    marginLeft: '33%',
+    width: '80%',
 }
 
 const messageDiv = {
@@ -68,7 +70,7 @@ const messageDiv = {
     flexDirection: 'column',
     alignItems: 'flex-start',
     marginTop: '30px',
-    marginLeft: '33%',
+    width: '80%',
 }
 
 const ContactForm = (theme) => {

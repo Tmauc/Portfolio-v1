@@ -25,6 +25,7 @@
 /******** HOME SECTION ********/
 .homeDiv {
     height: 100%;
+    width: 100%;
 }
 
 @media (min-width: 1054px) {
@@ -101,9 +102,12 @@
         height: 100vh;
         transition: transform 1s ease-in-out;
     }
+    .text-wrapper-home {
+        padding: 100px 30px 30px 30px;
+    }
 }
 
-@media (max-width: 1054px) {
+@media (max-width: 1054px) and (min-width: 560px){
     .main-wrapper-home {
         display: flex;
         flex-direction: column;
@@ -147,12 +151,12 @@
         font-size: 50px;
     }
 
-    .paddingR300 {
-        padding-right: 0px;
+    .paddingR250 {
+        padding: 0px;
     }
 
     .paddingL250 {
-        padding-left: 0px;
+        padding: 0px;
     }
 
     .colBtnHome {
@@ -173,6 +177,90 @@
         margin-top: 0%;
         height: 100vh;
         transition: transform 1s ease-in-out;
+    }
+    .text-wrapper-home {
+        padding: 100px 30px 30px 30px;
+    }
+}
+
+@media (max-width: 560px){
+    .main-wrapper-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: linear-gradient(305deg, rgba(205, 205, 205, 1) 30%, rgba(46, 49, 46, 1) 100%);
+    }
+
+    .PDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 54vh;
+        width: 100%;
+        margin-top: -5%;
+        background: rgb(204, 204, 204);
+    }
+
+    .proDiv {
+        left: 0;
+
+        border-bottom: 4px solid;
+        background: linear-gradient(345deg, rgba(204, 204, 204, 1) 0%, rgba(46, 49, 46, 1) 100%);
+
+        transition: z-index 1s, width 0.5s ease-out;
+
+        z-index: 500;
+    }
+
+    .persoDiv {
+        right: 0;
+        border-top: 4px solid;
+        background: linear-gradient(345deg, rgb(148, 148, 148) 0%, rgba(255, 255, 255, 1) 100%);
+
+        transition: z-index 1s, width 0.5s ease-out;
+
+        z-index: 500;
+    }
+    .rotate5 {
+        transform: rotate(0deg);
+    }
+
+    .btnHome {
+        font-size: 50px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .paddingR250 {
+        padding: 0px;
+    }
+
+    .paddingL250 {
+        padding: 0px;
+    }
+
+    .colBtnHome {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .colBtnHome2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
+        z-index: 1000;
+    }
+
+    .imgDiv {
+        display: none;
+    }
+
+    .text-wrapper-home {
+        padding: 30px 30px 30px 30px;
     }
 }
 
@@ -209,10 +297,6 @@
     letter-spacing: 1pt;
     line-height: 19pt;
     color: black;
-}
-
-.text-wrapper-home {
-    padding: 100px 30px 30px 30px;
 }
 
 @keyframes slidein {

@@ -81,7 +81,6 @@ class TwitchSection extends React.Component {
             }
         })
             .then(response => {
-                console.log(response)
                 this.setState({ videos: response.data.data })
             })
             .catch(error => {
@@ -116,7 +115,7 @@ class TwitchSection extends React.Component {
                                 this.state.user.broadcaster_type === 'partner' ? <i className="fa fa-check-circle iconPartner"></i> : <i className=""></i>
                             }
                         </div>
-                        <div className="col-lg-6 col-xs-12 center">
+                        <div className="col-lg-6 col-xs-12 center twitchText">
                             <div className="text-wrapper">
                                 <h2 className="title">{this.state.user.display_name}</h2>
                                 <hr className="line"></hr>
@@ -134,19 +133,6 @@ class TwitchSection extends React.Component {
                                 {this.state.clips.map((clip, idx) => (
                                     // eslint-disable-next-line jsx-a11y/iframe-has-title
                                     <iframe className="clipIFrame" key={idx} src={clip.embed_url + '&parent=' + config.localParent + '&parent=' + config.parent} width="480" height="270" allowFullScreen={true} />
-                                ))}
-                            </div>
-                        </div>
-                        <div className="col-md-12 col-xs-12">
-                            <div className="clipTitle">
-                                <h2 className="title paddingTitle">Videos</h2>
-                                <Button id="btnVideos" variant="light" onClick={() => this.click("videosSection", "btnVideos")}>+</Button>
-                            </div>
-                            <hr className="line"></hr>
-                            <div className="clipsSection" id="videosSection">
-                                {this.state.videos.map((video, idx) => (
-                                    // eslint-disable-next-line jsx-a11y/iframe-has-title
-                                    <iframe className="clipIFrame" key={idx} src={video.url + '&parent=' + config.localParent + '&parent=' + config.parent} width="480" height="270" allowFullScreen={true} />
                                 ))}
                             </div>
                         </div>

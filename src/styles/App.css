@@ -91,6 +91,7 @@ h1 {
 .personalPageDiv {
   height: 100%;
   background: linear-gradient(345deg, rgba(204, 204, 204, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  overflow-x: hidden;
 }
 
 .line {
@@ -272,12 +273,14 @@ h1 {
   padding: 100px 30px 30px 30px;
 }
 
-.img-wrap {
-  display: flex;
-  margin-top: 50px;
-  padding-left: 30px;
-  justify-content: center;
-  height: 100%;
+@media (min-width: 990px) {
+  .img-wrap {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 30px;
+    justify-content: center;
+    height: 100%;
+  }
 }
 
 .about-me-img {
@@ -329,6 +332,10 @@ h1 {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
+.twitchText .text-wrapper {
+  padding-top: 20px;
+}
+
 .iconPartner {
   color: #6441a5;
 }
@@ -344,6 +351,7 @@ h1 {
 
 .clipIFrame {
   margin: auto 5px;
+  width: 90%;
 }
 
 .clipTitle {
@@ -384,12 +392,14 @@ h1 {
 /******** SOCIAL SECTION ********/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.socialR {
-  padding-right: 250px;
-}
+@media (min-width: 1000px) {
+  .socialR {
+    padding-right: 250px;
+  }
 
-.socialL {
-  padding-left: 250px;
+  .socialL {
+    padding-left: 250px;
+  }
 }
 
 .wrapper {
@@ -403,8 +413,8 @@ h1 {
   border-radius: 50%;
   padding: 15px;
   margin: 10px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -508,5 +518,14 @@ h1 {
     width: 100%;
     position: relative;
     padding-left: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .img-wrap {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    height: 100%;
   }
 }
